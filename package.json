@@ -41,9 +41,7 @@
   "lint-staged": {
     "*.js": "eslint --fix"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "gitHooks": {
+    "pre-commit": "lint-staged"
   }
 }
