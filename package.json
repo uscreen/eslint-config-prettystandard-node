@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "description": "ESLint sharable config: prettier &amp; standard for node",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "postinstall": "echo \"this is postinstall\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint '**/*.js' --fix"
   },
   "keywords": [
     "eslint",
@@ -14,6 +16,8 @@
     "standard",
     "node"
   ],
+  "homepage": "https://github.com/uscreen/eslint-config-prettystandard-node",
+  "repository": "https://github.com:uscreen/eslint-config-prettystandard-node.git",
   "author": {
     "name": "Marcus Spiegel",
     "email": "spiegel@uscreen.de"
@@ -29,5 +33,17 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "prettier": "^2.1.1"
+  },
+  "devDependencies": {
+    "lint-staged": "^10.3.0",
+    "yorkie": "^2.0.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

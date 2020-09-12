@@ -1,5 +1,7 @@
 # @uscreen.de/eslint-config-prettystandard-node
 
+[![Known Vulnerabilities](https://snyk.io/test/github/uscreen/eslint-config-prettystandard-node/badge.svg?targetFile=package.json)](https://snyk.io/test/github/uscreen/eslint-config-prettystandard-node?targetFile=package.json)
+
 > ESLint sharable config: prettier &amp; standard for node
 
 While maintaining a larger number of projects with different versions of Node.js, modules, and linters, we can't recommend installing any global packages or binaries at all. Thus ESLint and it's config get installed as configured devDependency within their projects package.json. Editors are configured to use local `eslint` if found to overcome compatibility issues throughout different projects.
