@@ -48,6 +48,13 @@ This includes Prettier configuration, so you don't need to apply any extra `.pre
 
 > Format according to https://keepachangelog.com
 
+### v0.2.0
+
+#### Changed
+
+- upgrade to eslint ^8.5.0
+- upgrade to prettier ^2.5.1
+
 ### v0.1.0
 
 #### Added
