@@ -6,9 +6,6 @@
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "lint": "eslint '**/*.js' --fix"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -34,13 +31,13 @@
     "prettier": "^2.5.1"
   },
   "devDependencies": {
-    "lint-staged": "^12.1.4",
-    "yorkie": "^2.0.0"
+    "husky": ">=6",
+    "lint-staged": ">=10"
   },
   "lint-staged": {
-    "*.js": "eslint --fix"
+    "*.js": "eslint --cache --fix"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+  "scripts": {
+    "prepare": "husky install"
   }
 }
