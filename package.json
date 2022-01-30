@@ -1,6 +1,6 @@
 {
   "name": "@uscreen.de/eslint-config-prettystandard-node",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "ESLint sharable config: prettier &amp; standard for node",
   "main": "index.js",
   "files": [
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "eslint": "^8.6.0",
+    "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "husky": ">=6",
-    "lint-staged": ">=12.1.7"
+    "lint-staged": ">=12.3.2"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
