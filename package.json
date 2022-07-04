@@ -1,6 +1,6 @@
 {
   "name": "@uscreen.de/eslint-config-prettystandard-node",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "ESLint sharable config: prettier &amp; standard for node",
   "main": "index.js",
   "files": [
