@@ -1,8 +1,10 @@
 /**
  * proper imports
  */
-const path = require('path')
-console.log(path.join(__dirname, 'locales'))
+import { fileURLToPath } from 'node:url'
+import path from 'node:path'
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+console.log(__dirname)
 
 /**
  * no semicolons
