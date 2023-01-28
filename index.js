@@ -7,6 +7,7 @@ module.exports = {
   rules: {
     'generator-star-spacing': 'off',
     'space-before-function-paren': 'off',
+    /* c8 ignore next */
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'prettier/prettier': [
       'error',

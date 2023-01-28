@@ -1,0 +1,54 @@
+/**
+ * We don't use file extension `.js` to avoid problems with automatic linting in editor
+ */
+
+/**
+ * generator-star-spacing: off
+ */
+function * generator() {}
+
+/**
+ * 'space-before-function-paren': 'off',
+ */
+function fn () {}
+
+/**
+ * no semicolons
+ */
+const string = '';
+
+/**
+ * single quotes
+ */
+const array = ["one", "two"]
+
+/**
+ * no trailing comma
+ */
+const object = {
+  one: 'first',
+  two: 'second',
+}
+
+/**
+ * bracket spacing
+ */
+const summary = {array, object}
+
+/**
+ * no-unused-vars
+ */
+const unused = ''
+
+/**
+ * no-undef
+ */
+const any = undef
+
+module.exports = {
+  any,
+  string,
+  summary,
+  fn,
+  generator
+}
