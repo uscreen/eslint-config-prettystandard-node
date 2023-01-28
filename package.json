@@ -21,14 +21,15 @@
   },
   "license": "MIT",
   "dependencies": {
-    "eslint": "^8.23.1",
+    "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.1",
-    "prettier": "^2.7.0"
+    "prettier": "^2.8.3"
   },
   "devDependencies": {
     "c8": "^7.12.0",
