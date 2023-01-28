@@ -1,6 +1,9 @@
 # @uscreen.de/eslint-config-prettystandard-node
 
+[![Test CI](https://github.com/uscreen/eslint-config-prettystandard-node/actions/workflows/main.yml/badge.svg)](https://github.com/uscreen/eslint-config-prettystandard-node/actions/workflows/main.yml)
+[![Test Coverage](https://coveralls.io/repos/github/uscreen/eslint-config-prettystandard-node/badge.svg?branch=master)](https://coveralls.io/github/uscreen/eslint-config-prettystandard-node?branch=master)
 [![Known Vulnerabilities](https://snyk.io/test/github/uscreen/eslint-config-prettystandard-node/badge.svg?targetFile=package.json)](https://snyk.io/test/github/uscreen/eslint-config-prettystandard-node?targetFile=package.json)
+[![NPM Version](https://badge.fury.io/js/@uscreen.de%2Feslint-config-prettystandard-node.svg)](https://badge.fury.io/js/@uscreen.de%2Feslint-config-prettystandard-node)
 
 > ESLint sharable config: prettier &amp; standard for node
 
