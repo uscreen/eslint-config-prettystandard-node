@@ -14,7 +14,10 @@
     "node"
   ],
   "homepage": "https://github.com/uscreen/eslint-config-prettystandard-node",
-  "repository": "https://github.com:uscreen/eslint-config-prettystandard-node.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uscreen/eslint-config-prettystandard-node.git"
+  },
   "author": {
     "name": "Marcus Spiegel",
     "email": "spiegel@uscreen.de"
