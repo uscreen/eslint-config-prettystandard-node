@@ -17,9 +17,9 @@ Install all required __plugins__ together with the __ESLint__ and __Prettier__ b
 
 > This is _not_ following the proposed best-practice (see roadmap below), but _works_.
 
-__yarn:__
+__pnpm:__
 ```bash
-yarn add @uscreen.de/eslint-config-prettystandard-node -D
+pnpm add @uscreen.de/eslint-config-prettystandard-node -D
 ```
 
 __npm:__
