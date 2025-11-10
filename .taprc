@@ -1,6 +1,0 @@
-{
-  "reporter": "spec",
-  "check-coverage": false,
-  "no-coverage": true,
-  "test-regex": "\\w+\\.test\\.js$"
-}
